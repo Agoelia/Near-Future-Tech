@@ -1,0 +1,14 @@
+[
+  {
+    "type": "MOD_INFO",
+    "id": "near_future_tech",
+    "name": "Near Future Tech",
+    "authors": [ "ArkantosAoM" ],
+    "maintainers": [ "ArkantosAoM" ],
+    "description": "A content mod adding mostly hard-sci-fi equipment, inspired by the likes of The Expanse, Menace and Brigador.",
+    "category": "items",
+    "dependencies": [ "bn", "exotic_ammo" ],
+    "obsolete": false,
+    "version": "0.1"
+  }
+]
