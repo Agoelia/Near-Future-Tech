@@ -1,0 +1,35 @@
+[
+  {
+    "type": "GENERIC",
+    "id": "alloy_sheet",
+    "name": { "str": "superalloy sheet" },
+    "description": "A sheet of advanced material, lighter but also sturdier than steel. It's made from a mix of carbon nanotubes and tungsten carbide. It's used extensively in aerosapce, military hardware and bionics due to its biocompatibility, ballistc properties and tensile strength.",
+    "weight": "900 g",
+    "to_hit": -2,
+    "color": "light_cyan",
+    "symbol": ",",
+    "material": [ "superalloy" ],
+    "volume": "500 ml",
+    "category": "veh_parts",
+    "price": "85 USD",
+    "price_postapoc": "5 USD",
+    "qualities": [ [ "COOK", 1 ] ]
+  },
+  {
+    "type": "GENERIC",
+    "id": "alloy_filament",
+    "name": { "str": "superalloy filament" },
+    "description": "A rigid string of advanced material, lighter but also sturdier than steel. It's about the size of a spaghetto, which is a convenient shape for use in 3d printing. It's made from a mix of carbon nanotubes and tungsten carbide. It's used extensively in 3D printing, aerospace, military hardware and bionics due to its biocompatibility, ballistic properties and tensile strength.",
+    "weight": "10 g",
+    "to_hit": -2,
+    "color": "light_cyan",
+    "looks_like": "nylon_filament",
+    "symbol": "=",
+    "material": [ "superalloy" ],
+    "volume": "5 ml",
+    "category": "veh_parts",
+    "price": "1 USD",
+    "price_postapoc": "5 cent",
+    "flags": [ "NO_SALVAGE" ]
+  }
+]

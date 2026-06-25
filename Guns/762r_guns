@@ -1,0 +1,37 @@
+ [ 
+    {
+    "id": "pkm",
+    "copy-from": "mg_base",
+    "type": "GUN",
+    "name": { "str": "PKM" },
+    "description": "The PKM is a soviet/russian belt-fed, general-purpose machine gun. It's chambered in the ancient 7.62x54mmR cartridge, which is heavy and has a lot of kick, but each bullet will go through several zombies, and they come in 250-round belts.",
+    "weight": "9 kg",
+    "volume": "3 L",
+    "barrel_volume": "500 ml",
+    "price": "10 kUSD",
+    "price_postapoc": "75 USD",
+    "bashing": 15,
+    "ascii_picture": "m240",
+    "material": [ "steel", "wood" ],
+    "color": "dark_gray",
+    "ammo": "762R",
+    "dispersion": 120,
+    "durability": 9,
+    "modes": [ [ "DEFAULT", "burst", 4 ] ],
+    "built_in_mods": [ "bipod" ],
+    "valid_mod_locations": [
+      [ "accessories", 4 ],
+      [ "barrel", 1 ],
+      [ "bore", 1 ],
+      [ "brass catcher", 1 ],
+      [ "grip", 1 ],
+      [ "mechanism", 4 ],
+      [ "muzzle", 1 ],
+      [ "rail", 1 ],
+      [ "sights", 1 ],
+      [ "sling", 1 ],
+      [ "stock", 1 ]
+    ],
+    "magazines": [ [ "762R", [ "pkm100mag" ] ] ]
+   }
+]

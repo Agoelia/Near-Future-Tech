@@ -1,0 +1,14 @@
+[
+  {
+    "id": "everyday_pkm",
+    "type": "item_group",
+    "//": "this is a distribution for the gun, reasonable number of backup mags, and rarely some loose ammo to repack",
+    "subtype": "collection",
+    "entries": [
+      { "item": "pkm", "ammo-group": "on_hand_762R", "charges": [ 0, 100 ] },
+      { "group": "pkm100mag", "charges-min": 0, "prob": 50, "charges": [ 0, 100 ] },
+      { "group": "pkm100mag", "charges-min": 0, "prob": 10, "charges": [ 0, 100 ] },
+      { "group": "on_hand_762R", "prob": 25, "charges": [ 10, 20 ], "count": [ 1, 2 ] }
+    ]
+  }
+]

@@ -1,0 +1,14 @@
+[
+  {
+    "id": "nested_pkm",
+    "type": "item_group",
+    "//": "this is a distribution for the gun, with a reasonable number of  mags. No ammo included.",
+    "subtype": "collection",
+    "ammo": 100,
+    "entries": [
+      { "item": "pkm", "ammo-group": "on_hand_762R", "charges": [ 0, 100 ] },
+      { "group": "pkm100mag", "prob": 100 },
+      { "group": "pkm100mag", "prob": 50 }
+    ]
+  }
+]

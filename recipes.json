@@ -1,0 +1,17 @@
+[
+  {
+    "type": "recipe",
+    "result": "alloy_sheet",
+    "category": "CC_OTHER",
+    "subcategory": "CSC_OTHER_MATERIALS",
+    "skill_used": "Fabrication",
+    "difficulty": 6,
+    "time": "15 m",
+    "book_learn": [ [ "adv_chemistry", 10 ] ],
+    "using": [ [ "soldering_standard", 5 ], [ "3d_printer_advanced", 5 ], [ "blacksmithing_standard", 2] ],
+    "qualities": [ { "id": "HAMMER", "level": 3 }, { "id": "HAMMER_FINE", "level": 1 } ],
+    "components": [
+      [ [ "alloy_filament", 90 ] ]
+    ]
+  }
+]

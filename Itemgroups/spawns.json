@@ -1,0 +1,26 @@
+[
+  {
+    "type": "item_group",
+    "id": "mags_obscure",
+    "//": "Magazines for imported firearms.",
+    "items": [
+      [ "pkm100mag", 5 ]
+    ]
+  },
+  {
+    "type": "item_group",
+    "id": "guns_rifle_obscure",
+    "//": "Mostly imported or otherwise very obscure rifles.",
+    "items": [
+      { "group": "nested_pkm", "prob": 20 }
+    ]
+  },
+  {
+    "type": "item_group",
+    "id": "carried_guns_rifle_obscure",
+    "//": "Imported or otherwise very obscure rifles. Comes with mags or loose ammo.",
+    "items": [
+      { "group": "evreyday_pkm", "prob": 20 }
+    ]
+  }
+]

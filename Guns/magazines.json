@@ -1,0 +1,19 @@
+  {
+    "id": "pkm100mag",
+    "looks_like": "mp5mag",
+    "type": "MAGAZINE",
+    "name": { "str": "PKM 100-round box" },
+    "description": "A box magasine for the PKM machine gun. It holds 100 rounds of 7.62x54mmR ammunition, and is unreasonably heavyy even when empty",
+    "weight": "1.5 kg",
+    "volume": "1 L",
+    "price": "60 USD",
+    "price_postapoc": "5 USD",
+    "material": "steel",
+    "symbol": "#",
+    "color": "light_gray",
+    "ammo_type": "762R",
+    "capacity": 100,
+    "reliability": 7,
+    "reload_time": 300,
+    "flags": [ "MAG_BULKY" ]
+  }
