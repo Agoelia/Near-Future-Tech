@@ -20,7 +20,7 @@
     "id": "carried_guns_rifle_obscure",
     "//": "Imported or otherwise very obscure rifles. Comes with mags or loose ammo.",
     "items": [
-      { "group": "evreyday_pkm", "prob": 20 }
+      { "group": "everyday_pkm", "prob": 20 }
     ]
   }
 ]

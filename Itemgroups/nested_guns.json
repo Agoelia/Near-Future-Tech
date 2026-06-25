@@ -7,8 +7,8 @@
     "ammo": 100,
     "entries": [
       { "item": "pkm", "ammo-group": "on_hand_762R", "charges": [ 0, 100 ] },
-      { "group": "pkm100mag", "prob": 100 },
-      { "group": "pkm100mag", "prob": 50 }
+      { "item": "pkm100mag", "prob": 100 },
+      { "item": "pkm100mag", "prob": 50 }
     ]
   }
 ]
