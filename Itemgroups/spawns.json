@@ -97,5 +97,14 @@
     "items": [
       { "group": "everyday_bolter", "prob": 15 }
     ]
+  },
+  {
+    "type": "item_group",
+    "id": "ammo_rifle_obscure",
+    "//": "Imported or otherwise very obscure rifle ammo. Spawns in mansions, military bases, and gun stores",
+    "subtype": "distribution",
+    "entries": [
+      { "item": "762_burst", "prob": 4, "charges": [ 1, 70 ] }
+    ]
   }
 ]
