@@ -37,7 +37,41 @@ You can also download the mod manually here
 https://mods.cataclysmbn.org/
 
 ## Requirements
-Near Future Tech requires the latest experimental of Cataclysm Bright Nights. You will also need to enable the mod "Exotic Calibers", which comes by default with BN. 
+Near Future Tech requires the latest experimental of Cataclysm Bright Nights. You will also need to enable the mod "Exotic Ammo Types", which comes by default with BN. 
 
 ## Road Map and content
-[x] Bolter
+
+- [x] Bolter
+
+A ficitional 40mm bolter inspired by warhammer. Diegetically it's a cosplay item that got marketed as a nerf gun, but it's an open secret it can fit 40mm grenades. 
+A  militarised version exists, it shoots 40x53mm grenades and is issues to power armor soldiers. 
+
+- [x] PKM
+
+Real, Soviet 7.62x39mm machine gun. Heavy, but shoots a very big round in full auto. 
+
+- [X] 762x39mm air burst round
+
+A fictional Korean round, high flesh damage but useless against armor. Inspired by the movie Elysium. 
+
+- [ ] Wearable guns. Most will be restricted to power armor - thing the minigun attached to Martian Recon Armor in The Expanse. 
+
+- [ ] More advanced bullet types. Hypersonic rounds that destroy guns, superalloy sabot, rounds with (limited) self-guiding capabilities, etc. Suggestions always welcome!
+
+- [ ] More coilguns (also known are Gauss guns or mass drivers). Big bullet, generally low muzzle velocity. Quiet. 
+
+- [ ] More railguns (also known as Lorentz weapons). Small bullet, hypersonic. 
+
+- [ ] Ash-12, plus perhaps other guns in the same caliber
+
+- [ ] A separate spawn list for miltiary grade, non-US list. Something the russian mob or chinese/korean sleeper cells would have, but would not be found in gun stores or US military arsenals. 
+ 
+- [ ] A separate spawn list for heavy guns that only spawns for enemies in power armor. 
+
+- [ ] Map extras to better distribute korean / chinese sleeper cells equipment (eg non-NATO advanced military tech).  
+
+- [ ] NASA campground / facility with next to no weapons, but a bunch of high-tech materials
+
+- [ ] Recipes to make superalloy, as well as break it into filaments
+
+- [ ] More advanced 40mm grenade types
