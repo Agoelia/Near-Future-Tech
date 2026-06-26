@@ -20,7 +20,82 @@
     "id": "carried_guns_rifle_obscure",
     "//": "Imported or otherwise very obscure rifles. Comes with mags or loose ammo.",
     "items": [
-      { "group": "evreyday_pkm", "prob": 20 }
+      { "group": "everyday_pkm", "prob": 20 }
+    ]
+  },
+  {
+    "type": "item_group",
+    "id": "guns_rifle_rare",
+    "//": "Rifles including those only used by police/paramilitary forces or owned illegally.",
+    "items": [
+      { "group": "nested_bolter", "prob": 5 }
+    ]
+  },
+  {
+    "type": "item_group",
+    "id": "on_hand_40x53mm",
+    "//": "a collection of ammo that would be found with a loaded gun.",
+    "subtype": "distribution",
+    "entries": [
+      { "item": "40x53mm_m1001", "prob": 10, "charges": [ 5, 10 ] },
+      { "item": "40x53mm_m430a1", "prob": 50, "charges": [ 5, 10 ] }
+    ]
+  },
+  {
+    "type": "item_group",
+    "id": "mags_milspec",
+    "//": "Current military specification magazines.",
+    "items": [
+      [ "warhammer_40mm_mag_mil", 10 ]
+    ]
+  },
+  {
+    "type": "item_group",
+    "id": "mags_rifle_rare",
+    "//": "Aftermarket or otherwise uncommon rifle magazines excluding milspec.",
+    "items": [
+      [ "warhammer_40mm_mag", 20 ]
+    ]
+  },
+  {
+    "type": "item_group",
+    "id": "guns_rifle_common_display",
+    "//": "Empty rifles commonly found in gun stores.",
+    "items": [
+      { "item": "pkm", "prob": 10, "charges-max": 0 },
+      { "item": "warhammer_40mm", "prob": 15, "charges-max": 0 }
+    ]
+  },
+  {
+    "type": "item_group",
+    "id": "everyday_guns_power_armor",
+    "//": "Heavy guns used and carried by power armor soldier.",
+    "items": [
+      { "item": "everyday_bolter_mil", "prob": 10}
+    ]
+  },
+  {
+    "type": "item_group",
+    "id": "everyday_sidearm_power_armor",
+    "//": "Sidearms used and carried by power armor soldier.",
+    "items": [
+      { "item": "everyday_bolter_mil", "prob": 10}
+    ]
+  },
+  {
+    "type": "item_group",
+    "id": "nested_guns_milspec_power_armor",
+    "//": "Heavy guns used by power armor soldier, or power armor-specific sidearms. Found in bunkers, military crates, and other military locations. Fully loaded.",
+    "items": [
+      { "item": "nested_bolter_mil", "prob": 10}
+    ]
+  },
+  {
+    "type": "item_group",
+    "id": "carried_guns_rifle_obscure",
+    "//": "Imported or otherwise very obscure rifles. Comes with mags or loose ammo.",
+    "items": [
+      { "group": "everyday_bolter", "prob": 15 }
     ]
   }
 ]

@@ -1,10 +1,11 @@
+[  
   {
     "id": "pkm100mag",
-    "looks_like": "mp5mag",
+    "looks_like": "saiga410mag_30rd",
     "type": "MAGAZINE",
     "name": { "str": "PKM 100-round box" },
-    "description": "A box magasine for the PKM machine gun. It holds 100 rounds of 7.62x54mmR ammunition, and is unreasonably heavyy even when empty",
-    "weight": "1.5 kg",
+    "description": "A box magazine for the PKM machine gun. It holds 100 rounds of 7.62x54mmR ammunition, and is unreasonably heavyy even when empty",
+    "weight": "1500 g",
     "volume": "1 L",
     "price": "60 USD",
     "price_postapoc": "5 USD",
@@ -14,6 +15,42 @@
     "ammo_type": "762R",
     "capacity": 100,
     "reliability": 7,
-    "reload_time": 300,
+    "flags": [ "MAG_BULKY" ]
+  },
+  {
+    "id": "warhammer_40mm_mag",
+    "looks_like": "saiga410mag_10rd",
+    "type": "MAGAZINE",
+    "name": { "str": "40mm Bolter magazine" },
+    "description": "A magazine for the Warhammer 40k cosplay Bolter. It holds 10 rounds of nerf darts, or alternatively, of 40x46mm grenades.",
+    "weight": "250 g",
+    "volume": "700 ml",
+    "price": "80 USD",
+    "price_postapoc": "8 USD",
+    "material": "steel",
+    "symbol": "#",
+    "color": "light_gray",
+    "ammo_type": "40x46mm",
+    "capacity": 10,
+    "reliability": 7,
+    "flags": [ "MAG_BULKY" ]
+  },
+  {
+    "id": "warhammer_40mm_mag_mil",
+    "looks_like": "saiga410mag_10rd",
+    "type": "MAGAZINE",
+    "name": { "str": "M3A9 magazine" },
+    "description": "A magazine for the M3A9 'bolter' grenade launcher. It holds 10 rounds of high-velocity grenades",
+    "weight": "250 g",
+    "volume": "700 ml",
+    "price": "80 USD",
+    "price_postapoc": "8 USD",
+    "material": "steel",
+    "symbol": "#",
+    "color": "light_gray",
+    "ammo_type": "40x53mm",
+    "capacity": 10,
+    "reliability": 7,
     "flags": [ "MAG_BULKY" ]
   }
+]
