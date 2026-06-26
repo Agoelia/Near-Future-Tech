@@ -2,13 +2,43 @@
   {
     "id": "nested_pkm",
     "type": "item_group",
-    "//": "this is a distribution for the gun, with a reasonable number of  mags. No ammo included.",
+    "//": "this is a distribution for the gun, with a reasonable number of  mags. Fully loaded, sometimes with loose ammo to repack as well",
     "subtype": "collection",
     "ammo": 100,
+    "magazine": 100,
     "entries": [
-      { "item": "pkm", "ammo-group": "on_hand_762R", "charges": [ 0, 100 ] },
-      { "item": "pkm100mag", "prob": 100 },
-      { "item": "pkm100mag", "prob": 50 }
+      { "item": "pkm", "ammo-group": "on_hand_762R" },
+      { "item": "pkm100mag", "prob": 60 },
+      { "item": "pkm100mag", "prob": 20 },
+      { "group": "on_hand_762R", "prob": 50, "charges": [ 10, 40 ], "count": [ 1, 2 ] }
+    ]
+  },
+  {
+    "id": "nested_bolter",
+    "type": "item_group",
+    "//": "this is a distribution for the gun, with a reasonable number of  mags. Fully loaded, sometimes with loose ammo to repack as well",
+    "subtype": "collection",
+    "ammo": 100,
+    "magazine": 100,
+    "entries": [
+      { "item": "warhammer_40mm", "ammo-group": "on_hand_40x46mm"},
+      { "item": "warhammer_40mm_mag", "prob": 60 },
+      { "item": "warhammer_40mm_mag", "prob": 20 },
+      { "group": "on_hand_40x46mm", "prob": 50, "charges": [ 2, 8 ], "count": [ 1, 2 ] }
+    ]
+  },
+  {
+    "id": "nested_bolter_mil",
+    "type": "item_group",
+    "//": "this is a distribution for the gun, with a reasonable number of  mags. Fully loaded, sometimes with loose ammo to repack as well",
+    "subtype": "collection",
+    "ammo": 100,
+    "magazine": 100,
+    "entries": [
+      { "item": "warhammer_40mm_mil", "ammo-group": "on_hand_40x53mm", "magazine": "warhammer_40mm_mag_mil" },
+      { "item": "warhammer_40mm_mag_mil", "prob": 60 },
+      { "item": "warhammer_40mm_mag_mil", "prob": 20 },
+      { "group": "on_hand_40x53mm", "prob": 50, "charges": [ 2, 8 ], "count": [ 1, 2 ] }
     ]
   }
 ]

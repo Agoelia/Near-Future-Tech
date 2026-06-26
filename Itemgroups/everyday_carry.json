@@ -5,10 +5,34 @@
     "//": "this is a distribution for the gun, reasonable number of backup mags, and rarely some loose ammo to repack",
     "subtype": "collection",
     "entries": [
-      { "item": "pkm", "ammo-group": "on_hand_762R", "charges": [ 0, 100 ] },
-      { "item": "pkm100mag", "charges-min": 0, "prob": 50, "charges": [ 0, 100 ] },
-      { "item": "pkm100mag", "charges-min": 0, "prob": 10, "charges": [ 0, 100 ] },
-      { "item": "on_hand_762R", "prob": 25, "charges": [ 10, 20 ], "count": [ 1, 2 ] }
+      { "item": "pkm", "ammo-group": "on_hand_762R", "charges-min": 0 },
+      { "item": "pkm100mag", "charges-min": 0, "prob": 50 },
+      { "item": "pkm100mag", "charges-min": 0, "prob": 10 },
+      { "group": "on_hand_762R", "prob": 10, "charges": [ 10, 40 ], "count": [ 1, 2 ] }
+    ]
+  },
+  {
+    "id": "everyday_bolter",
+    "type": "item_group",
+    "//": "this is a distribution for the gun, reasonable number of backup mags, and rarely some loose ammo to repack",
+    "subtype": "collection",
+    "entries": [
+      { "item": "warhammer_40mm", "ammo-group": "on_hand_40x46mm", "charges-min": 0 },
+      { "item": "warhammer_40mm_mag", "charges-min": 0, "prob": 50},
+      { "item": "warhammer_40mm_mag", "charges-min": 0, "prob": 10},
+      { "group": "on_hand_40x46mm", "prob": 10, "charges": [ 1, 4 ], "count": [ 1, 2 ] }
+    ]
+  },
+  {
+    "id": "everyday_bolter_mil",
+    "type": "item_group",
+    "//": "this is a distribution for the gun, reasonable number of backup mags, and rarely some loose ammo to repack",
+    "subtype": "collection",
+    "entries": [
+      { "item": "warhammer_40mm_mil", "ammo-group": "on_hand_40x53mm", "charges-min": 0 },
+      { "item": "warhammer_40mm_mag_mil", "charges-min": 0, "prob": 50},
+      { "item": "warhammer_40mm_mag_mil", "charges-min": 0, "prob": 10},
+      { "group": "on_hand_40x53mm", "prob": 10, "charges": [ 1, 4 ], "count": [ 1, 2 ] }
     ]
   }
 ]
