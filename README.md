@@ -75,3 +75,5 @@ A fictional Korean round, high flesh damage but useless against armor. Inspired 
 - [ ] Recipes to make superalloy, as well as break it into filaments
 
 - [ ] More advanced 40mm grenade types
+
+- [ ] Add support for NFT within Otopack 2
