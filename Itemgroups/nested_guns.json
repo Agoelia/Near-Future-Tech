@@ -21,7 +21,7 @@
     "ammo": 100,
     "magazine": 100,
     "entries": [
-      { "item": "warhammer_40mm", "ammo-group": "on_hand_40x46mm"},
+      { "item": "warhammer_40mm", "ammo-group": "on_hand_40x46mm" },
       { "item": "warhammer_40mm_mag", "prob": 60 },
       { "item": "warhammer_40mm_mag", "prob": 20 },
       { "group": "on_hand_40x46mm", "prob": 50, "charges": [ 2, 8 ], "count": [ 1, 2 ] }
@@ -35,7 +35,7 @@
     "ammo": 100,
     "magazine": 100,
     "entries": [
-      { "item": "warhammer_40mm_mil", "ammo-group": "on_hand_40x53mm", "magazine": "warhammer_40mm_mag_mil" },
+      { "item": "warhammer_40mm_mil", "ammo-group": "on_hand_40x53mm" },
       { "item": "warhammer_40mm_mag_mil", "prob": 60 },
       { "item": "warhammer_40mm_mag_mil", "prob": 20 },
       { "group": "on_hand_40x53mm", "prob": 50, "charges": [ 2, 8 ], "count": [ 1, 2 ] }

@@ -2,11 +2,12 @@
   {
     "id": "everyday_pkm",
     "type": "item_group",
-    "//": "this is a distribution for the gun, reasonable number of backup mags, and rarely some loose ammo to repack",
+    "//": "this is a distribution for the gun, a reasonable number of backup mags, and rarely some loose ammo to repack",
     "subtype": "collection",
+    "magazine": 80,
     "entries": [
       { "item": "pkm", "ammo-group": "on_hand_762R", "charges-min": 0 },
-      { "item": "pkm100mag", "charges-min": 0, "prob": 50 },
+      { "item": "pkm100mag", "charges-min": 0, "prob": 20 },
       { "item": "pkm100mag", "charges-min": 0, "prob": 10 },
       { "group": "on_hand_762R", "prob": 10, "charges": [ 10, 40 ], "count": [ 1, 2 ] }
     ]
@@ -14,8 +15,9 @@
   {
     "id": "everyday_bolter",
     "type": "item_group",
-    "//": "this is a distribution for the gun, reasonable number of backup mags, and rarely some loose ammo to repack",
+    "//": "this is a distribution for the gun, a reasonable number of backup mags, and rarely some loose ammo to repack",
     "subtype": "collection",
+    "magazine": 80,
     "entries": [
       { "item": "warhammer_40mm", "ammo-group": "on_hand_40x46mm", "charges-min": 0 },
       { "item": "warhammer_40mm_mag", "charges-min": 0, "prob": 50},
@@ -26,8 +28,9 @@
   {
     "id": "everyday_bolter_mil",
     "type": "item_group",
-    "//": "this is a distribution for the gun, reasonable number of backup mags, and rarely some loose ammo to repack",
+    "//": "this is a distribution for the gun, a reasonable number of backup mags, and rarely some loose ammo to repack",
     "subtype": "collection",
+    "magazine": 80,
     "entries": [
       { "item": "warhammer_40mm_mil", "ammo-group": "on_hand_40x53mm", "charges-min": 0 },
       { "item": "warhammer_40mm_mag_mil", "charges-min": 0, "prob": 50},
