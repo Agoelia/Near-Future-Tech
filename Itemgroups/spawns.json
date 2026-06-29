@@ -71,7 +71,7 @@
     "id": "everyday_guns_power_armor",
     "//": "Heavy guns used and carried by power armor soldier.",
     "items": [
-      { "item": "everyday_bolter_mil", "prob": 10}
+      { "group": "everyday_bolter_mil", "prob": 10}
     ]
   },
   {
@@ -79,7 +79,7 @@
     "id": "everyday_sidearm_power_armor",
     "//": "Sidearms used and carried by power armor soldier.",
     "items": [
-      { "item": "everyday_bolter_mil", "prob": 10}
+      { "group": "everyday_bolter_mil", "prob": 10}
     ]
   },
   {
@@ -87,7 +87,7 @@
     "id": "nested_guns_milspec_power_armor",
     "//": "Heavy guns used by power armor soldier, or power armor-specific sidearms. Found in bunkers, military crates, and other military locations. Fully loaded.",
     "items": [
-      { "item": "nested_bolter_mil", "prob": 10}
+      { "group": "nested_bolter_mil", "prob": 10}
     ]
   },
   {
