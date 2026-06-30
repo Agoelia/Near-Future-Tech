@@ -56,7 +56,7 @@ Real, Soviet 7.62x39mm machine gun. Heavy, but shoots a very big round in full a
 
 A fictional Korean round, high flesh damage but useless against armor. Inspired by the movie Elysium. 
 
-- [ ] Wearable guns. Most will be restricted to power armor - thing the minigun attached to Martian Recon Armor in The Expanse. 
+- [ ] Wearable guns. Most will be restricted to power armor - think the minigun attached to Martian Recon Armor in The Expanse. 
 
 - [ ] More advanced bullet types. Hypersonic rounds that destroy guns, superalloy sabot, rounds with (limited) self-guiding capabilities, etc. Suggestions always welcome!
 
